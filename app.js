@@ -42,7 +42,6 @@ const posts = [
     }
   ];
 
-
 //stabiliamo la rotta 'bacheca'
 
 app.get('/bacheca', (req, res) =>{
@@ -52,5 +51,12 @@ app.get('/bacheca', (req, res) =>{
     });
 });
 
-
 //configuro gli asset statici
+
+app.use(express.static('public'));
+
+//avvio del server
+
+app.listen(port, () =>{
+    console.log(`Sono in ascolto sulla porta: ${port}`); 
+});
