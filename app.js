@@ -36,4 +36,15 @@ const posts = [
     }
   ];
 
-  
+
+//stabiliamo la rotta 'bacheca'
+
+app.get('/bacheca', (req, res) =>{
+    res.json({
+        count: posts.length,
+        posts: posts
+    });
+});
+
+
+//configuro gli asset statici
