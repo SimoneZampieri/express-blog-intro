@@ -4,7 +4,9 @@
   "description": "Esercizio === Blog Intro ## Consegna",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "node --watch app.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/SimoneZampieri/express-blog-intro/issues"
   },
-  "homepage": "https://github.com/SimoneZampieri/express-blog-intro#readme"
+  "homepage": "https://github.com/SimoneZampieri/express-blog-intro#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
