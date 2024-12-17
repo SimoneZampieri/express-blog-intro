@@ -13,31 +13,31 @@ const posts = [
     {
       title: 'Primo Post',
       content: 'Questo è il contenuto del primo post.',
-      image: '/images/post1.jpg',
+      image: 'http://localhost:3001/images/ciambellone.jpeg',
       tags: ['introduzione', 'primo']
     },
     {
       title: 'Secondo Post',
       content: 'Questo è il contenuto del secondo post.',
-      image: '/images/post2.jpg',
+      image: 'http://localhost:3001/images/cracker_barbabietola.jpeg',
       tags: ['aggiornamento', 'secondo']
     },
     {
       title: 'Terzo Post',
       content: 'Questo è il contenuto del terzo post.',
-      image: '/images/post3.jpg',
+      image: 'http://localhost:3001/images/pane_fritto_dolce.jpeg',
       tags: ['notizie', 'terzo']
     },
     {
       title: 'Quarto Post',
       content: 'Questo è il contenuto del quarto post.',
-      image: '/images/post4.jpg',
+      image: 'http://localhost:3001/images/pasta_barbabietola.jpeg',
       tags: ['eventi', 'quarto']
     },
     {
       title: 'Quinto Post',
       content: 'Questo è il contenuto del quinto post.',
-      image: '/images/post5.jpg',
+      image: 'http://localhost:3001/images/torta_paesana.jpeg',
       tags: ['conclusione', 'quinto']
     }
   ];
